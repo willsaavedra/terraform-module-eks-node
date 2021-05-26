@@ -11,6 +11,9 @@ variable labels {
 }
 variable capacity_type {
 }
-variable scaling_config {
-    type = map
+variable desired_size {
+}
+variable max_size {
+}
+variable min_size {
 }
