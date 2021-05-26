@@ -11,3 +11,6 @@ variable labels {
 }
 variable capacity_type {
 }
+variable scaling_config {
+    type = map
+}

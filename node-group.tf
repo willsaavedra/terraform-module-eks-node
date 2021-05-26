@@ -6,11 +6,7 @@ resource "aws_eks_node_group" "example" {
   instance_types = var.instance_types
   capacity_type = var.capacity_type
 
-  scaling_config {
-    desired_size = 3
-    max_size     = 5
-    min_size     = 3
-  }
+  scaling_config = var.scaling_config
 
   labels = var.labels
 
