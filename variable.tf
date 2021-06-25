@@ -21,5 +21,5 @@ variable filter_sudnets {
     
 }
 variable "disk_size" {
-  
+  default = 20
 }
