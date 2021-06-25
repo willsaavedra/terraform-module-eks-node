@@ -20,3 +20,6 @@ variable min_size {
 variable filter_sudnets {
     
 }
+variable "disk_size" {
+  
+}

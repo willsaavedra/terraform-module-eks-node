@@ -5,6 +5,7 @@ resource "aws_eks_node_group" "example" {
   subnet_ids      = data.aws_subnet_ids.subnets.ids
   instance_types = var.instance_types
   capacity_type = var.capacity_type
+  disk_size = var.disk_size
 
   scaling_config {
     desired_size = var.desired_size
